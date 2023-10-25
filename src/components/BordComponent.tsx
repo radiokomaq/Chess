@@ -51,7 +51,7 @@ const BordComponent: FC<BoardProps> = ({ board, setBoard, currentPlayer, swapPla
   return (
     <div>
     <div>
-      сет Хуесоc: <b >{currentPlayer?.color}</b>
+      сет Player: <b >{currentPlayer?.color}</b>
       </div>
         <div
       className='board'>
